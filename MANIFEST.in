@@ -1,0 +1,6 @@
+recursive-include thinc_mkl_ops *.pyx *.pxd *.txt
+include LICENSE
+include README.md
+include pyproject.toml
+include thinc_mkl_ops/py.typed
+recursive-exclude thinc_mkl_ops *.c
